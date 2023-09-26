@@ -62,6 +62,7 @@ const AddTaskModal = ({ isOpen, setIsOpen }) => {
             id="assignedTo"
             {...register('assignedTo')}
           >
+            <option value="lipon">lipon</option>
             <option value="Mir Hussain">Mir Hussain</option>
             <option value="Mezba Abedin">Mezba Abedin</option>
             <option value="Nahid Hasan">Nahid Hasan</option>
